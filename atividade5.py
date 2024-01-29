@@ -1,10 +1,9 @@
-# Program to convert meters to centimeters
+#Make a Program that converts meters to centimeters.
+#PT Faça um Programa que converta metros para centímetros.
 
-# Prompt user for input in meters
-meters = float(input("Enter the measurement in meters: "))
+number_meter= float(input("Enter the value to be converted: "))
 
-# Convert meters to centimeters (1 meter = 100 centimeters)
-centimeters = meters * 100
+cm_converter = number_meter * 100
 
-# Display the result
-print(f"{meters} meters is equal to {centimeters} centimeters.")
+print(f'{number_meter}M = {cm_converter} CM ')
+
